@@ -1,12 +1,8 @@
-let number = 7;
-console.log(number);
+// Deklarasikan constant language
+const language = "Prancis";
 
-// Tambahkan 3 ke nilai variable number
-number += 3;
+// Cetak nilai constant language
+console.log(language);
 
-console.log(number);
-
-// Bagi nilai variable number dengan 2
-number /= 2;
-
-console.log(number);
+// Gunakan constant language untuk mencetak "Saya bisa berbicara bahasa ____"
+console.log("Saya bisa berbicara bahasa " + language);
