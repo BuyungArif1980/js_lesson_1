@@ -1,8 +1,6 @@
-const name = "Ninja Ken";
-const age = 14;
+const level = 12;
 
-// Cetak string "Nama saya adalah ____"
-console.log(`Nama saya adalah ${name}`);
-
-// Cetak string "Hari ini saya berusia ____ tahun"
-console.log(`Hari ini saya berusia ${age} tahun`);
+// Tambahkan pernyataan if dengan kondisi: level > 10
+if (level > 10) {
+  console.log("Level Anda lebih tinggi dari 10");
+}
