@@ -1,12 +1,11 @@
-const age = 24;
+const password = "ninjaken";
 
-// Cetak hasil dari age >= 18
-console.log(age >= 18);
+// Ketika nilai password adalah "ninjaken", cetak "Berhasil log in"
+if (password === "ninjaken") {
+  console.log("Berhasil log in");
+}
 
-// Cetak hasil dari age < 18
-console.log(age < 18);
-
-// Ketika nilai dari age lebih besar atau sama dengan 18, cetak "Saya berusia lebih dari 18 tahun"
-if (age >= 18) {
-  console.log("Saya berusia lebih dari 18 tahun");
+// Ketika nilai password bukan "ninjaken", cetak "Password salah"
+if (password !== "ninjaken") {
+  console.log("Password salah");
 }
