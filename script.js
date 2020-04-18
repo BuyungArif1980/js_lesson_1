@@ -1,8 +1,12 @@
-let name = "Ninja Ken";
-console.log(name);
+let number = 7;
+console.log(number);
 
-// Update nilai variable ke "Birdie"
-name = "Birdie";
+// Tambahkan 3 ke nilai variable number
+number += 3;
 
-// Cetak nilai dari variable name
-console.log(name);
+console.log(number);
+
+// Bagi nilai variable number dengan 2
+number /= 2;
+
+console.log(number);
