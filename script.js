@@ -1,8 +1,8 @@
-// Deklarasikan variable length
-let length = 5;
+let name = "Ninja Ken";
+console.log(name);
 
-// Cetak nilai variable length
-console.log(length);
+// Update nilai variable ke "Birdie"
+name = "Birdie";
 
-// Gunakan variable length untuk mencetak hasil area lingkaran
-console.log(length * length * 3);
+// Cetak nilai dari variable name
+console.log(name);
