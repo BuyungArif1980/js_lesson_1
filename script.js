@@ -1,6 +1,17 @@
-const age = 24;
+const rank = 2;
 
-// Tambahkan pernyataan if dengan kondisi yang telah ditentukan
-if (age >= 20 && age < 30) {
-  console.log("Saya di usia 20-an tahun");
+switch (rank) {
+  case 1:
+    console.log("Anda meraih medali emas!");
+    break;
+
+  // Tambahkan case ketika rank adalah 2
+  case 2:
+    console.log("Anda meraih medali perak!");
+    break;
+
+  // Tambahkan case ketika rank adalah 3
+  case 3:
+    console.log("Anda meraih medali perunggu!");
+    break;
 }
