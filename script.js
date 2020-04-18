@@ -1,8 +1,5 @@
-// Cetak hasil 8 kali 4 di console.
-console.log(8 * 4);
+// Cetak kombinasi dari string "Guru " dan "Domba"
+console.log("Guru " + "Domba");
 
-// Cetak hasil 24 bagi 4 di console.
-console.log(24 / 4);
-
-// Cetak sisa setelah membagi 7 dengan 2 di console.
-console.log(7 % 2);
+// Cetak kombinasi dari "20" dan "15" (dan jadikan sebagai string)
+console.log("20" + "15");
