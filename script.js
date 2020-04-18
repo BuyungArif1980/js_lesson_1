@@ -1,8 +1,8 @@
-// Deklarasikan constant language
-const language = "Prancis";
+const name = "Ninja Ken";
+const age = 14;
 
-// Cetak nilai constant language
-console.log(language);
+// Cetak string "Nama saya adalah ____"
+console.log(`Nama saya adalah ${name}`);
 
-// Gunakan constant language untuk mencetak "Saya bisa berbicara bahasa ____"
-console.log("Saya bisa berbicara bahasa " + language);
+// Cetak string "Hari ini saya berusia ____ tahun"
+console.log(`Hari ini saya berusia ${age} tahun`);
