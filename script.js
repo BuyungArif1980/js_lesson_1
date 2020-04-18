@@ -1,5 +1,5 @@
-// Cetak kombinasi dari string "Guru " dan "Domba"
-console.log("Guru " + "Domba");
+// Deklarasikan nama variable dengan nilai string "Ninja Ken"
+let name = "Ninja Ken";
 
-// Cetak kombinasi dari "20" dan "15" (dan jadikan sebagai string)
-console.log("20" + "15");
+// Cetakan nilai nama variable
+console.log(name);
